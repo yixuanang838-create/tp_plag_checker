@@ -5,4 +5,4 @@ python-docx
 python-pptx
 reportlab
 pandas
-python-docx2txt
+docx2txt==0.8
