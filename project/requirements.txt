@@ -1,0 +1,8 @@
+streamlit
+sentence-transformers
+pdfminer.six
+python-docx
+python-pptx
+reportlab
+pandas
+docx2txt

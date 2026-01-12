@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Project specific
+*.pdf
+*.docx
+*.pptx
+plagiarism_report.pdf
+uploaded_files/
+temp_files/
+
+# Node modules (if any)
+node_modules/
+
+# Environment variables
+.env
