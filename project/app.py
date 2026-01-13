@@ -12,6 +12,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 import pandas as pd
 from io import BytesIO
+import os
 
 # =====================================================
 # PAGE CONFIG
@@ -26,7 +27,8 @@ st.set_page_config(
 # =====================================================
 col1, col2 = st.columns([1, 6])
 with col1:
-    st.image("sonic-bear.png", width=90)
+    image_path = os.path.join(os.path.dirname(__file__), "sonic-bear.png")
+st.image(image_path, width=90)
 with col2:
     st.markdown(
         """
